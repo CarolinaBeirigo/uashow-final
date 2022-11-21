@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_art.css">
+    <link rel="stylesheet" href="style_emp.css">
+    <link rel="stylesheet" href="global.css">
+    <title>UaiShow - cadastro Artista</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!--ICON DO SITE-->
+    <link rel="shortcut icon" href="svg/icon_site.ico" type="image/x-icon">
+    <!--Icones-->
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+    <header id="header" class="container">
+        <nav>
+            <a class="logo" href="./index.html"><span>Uai</span>Show</a>
+            <div class="menu">
+
+                <div id="input-container">
+                    <label for="input-search"><img src="./svg/search-icon.svg" alt=""></label>
+                    <input class="search-input" type="search" name="" id="input-search" placeholder="Pesquisar evento">
+                </div>
+                <ul class="links">
+                    <li><a class="title" href="#">Uberlândia</a></li>
+                    <li><a class="title" href="./login.html">Login</a></li>
+                    <li><a class="title" href="./cadastro.html">Cadastrar</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="Cadastro" class="container">
+        <h1>Cadastro</h1>
+        <p>Insira os seus dados para realizar seu cadastro. Você poderá fazer as alterações a qualquer momento.</p>
+        <br>
+
+        <div id="cad_mobile">
+            <h3>Selecione sua categoria</h3>
+            <div id="button">
+                <a><button class="button btn_artista">Artista</button></a>&nbsp;&nbsp;&nbsp;
+                <a><button class="button btn_empresa">Empresa</button></a>&nbsp;&nbsp;&nbsp;
+                <a><button class="button btn_usuario">Usuário</button></a>&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+
+        <div class="Formulario">
+            <label>Nome Completo</label>
+            <input class="caixa" type="text" name="nome" size=71 required />
+            <label>Email</label>
+            <input class="caixa" type="email" name="email" size=71 required />
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label>Endereço</label>
+                    <input class="caixa" type="tel" name="number" size=33 required />
+                </div>
+
+                <div class="input-box">
+                    <label>N°</label>
+                    <input class="caixa" type="link" name="link" size=33 required />
+                </div>
+
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label>Complemento</label>
+                    <input class="caixa" type="tel" name="number" size=14 required />
+                </div>
+
+                <div class="input-box">
+                    <label>Bairro</label>
+                    <input class="caixa" type="link" name="link" size=14 required />
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label>Cidade</label>
+                    <input class="caixa" type="link" name="link" size=14 required />
+                </div>
+
+                <div class="input-box">
+                    <label>UF</label>
+                    <select name="" id="uf" size=1 required>
+                        <option value="">Selecione</option>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label>Cpf</label>
+                    <input class="caixa" type="tel" name="number" size=33 required />
+                </div>
+
+                <div class="input-box">
+                    <label>Rg</label>
+                    <input class="caixa" type="link" name="link" size=33 required />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label>Telefone</label>
+                    <input class="caixa" type="tel" name="number" size=33 required />
+                </div>
+
+                <div class="input-box">
+                    <label>Sexo</label>
+                    <input class="caixa" type="link" name="link" size=33 required />
+                </div>
+            </div>
+
+            <label>Rede social (link)</label>
+            <input class="caixa" type="text" name="nome" size=71 required />
+
+            <div class="artistDataContainer">
+
+                <label>Nome artístico</label>
+                <input class="caixa" type="text" name="nome" size=71 required />
+                <label>Cnpj</label>
+                <input class="caixa" type="text" name="nome" size=71 required />
+
+                <h4>Disponibilidade (dia)</h4><br>
+                <div class="wrapper">
+                    <div class="input-group1">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Segunda </label>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Sexta</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group2">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Terça</label>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Sábado</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group3">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Quarta</label>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Domingo</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group3">
+                    <div class="input-box">
+                        <div class="form-group">
+                            <input class="checkbox" id="checkbox1" type='checkbox' />
+                            <label for="checkbox1">Quinta</label>
+                        </div>
+                    </div>
+                </div>
+                <!--FECHMANENTO DA DIV "wrapper"-->
+                <!--Horario de funcionamento -->
+                <h4>Disponibilidade (horário)</h4><br>
+                <div class="wrapper">
+                    <div class="input-group1">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Manhã </label>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Tarde </label>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Noite </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Equipamento -->
+                <h4>Possui equipamento?</h4><br>
+                <div class="wrapper">
+                    <div class="input-group1">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="radio" name="theradio1" id="radio1" type='radio' />
+                                <label for="radio1">Sim</label>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="radio" name="theradio1" id="radio2" type='radio' />
+                                <label for="radio2">Não</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <label>Se sim, qual(is)?</label>
+                <input class="caixa" type="text" name="nome" size=25 required />
+
+                <label>Descrição</label>
+                <input class="caixa" type="text" name="nome" size=25 required />
+
+
+                <!--Equipamento -->
+                <h4>Disponibilidade para viagem?</h4><br>
+                <div class="wrapper">
+                    <div class="input-group1">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="radio" name="theradio2" id="radio3" type='radio' />
+                                <label for="radio3">Sim</label>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="radio" name="theradio2" id="radio4" type='radio' />
+                                <label for="radio4">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label>Cachê base</label>
+                        <input class="caixa" type="text" name="nome" size=25 required />
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="companyFormWrapper">
+                <label>Nome Fantasia</label>
+                <input class="caixa" type="text" name="nome" size=71 required />
+                <label>Responsável</label>
+                <input class="caixa" type="text" name="nome" size=71 required />
+                <label>Cnpj</label>
+                <input class="caixa" type="text" name="nome" size=71 required />
+
+                <div class="input-group">
+                    <div class="input-box-company">
+                        <label>Telefone da Empresa</label>
+                        <input class="caixa" type="tel" name="number" size=33 required />
+                    </div>
+
+                    <div class="input-box">
+                        <label>CEP</label>
+                        <input class="caixa" type="text" name="nome" size=33 required />
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label>Estilo Temático</label>
+                        <input class="caixa" type="text" name="nome" size=33 required />
+                    </div>
+
+                    <div class="input-box">
+                        <label>Capacidade Máxima</label>
+                        <input class="caixa" type="text" name="nome" size=33 required />
+                    </div>
+
+                </div>
+
+                <h4>Estilos Musicais</h4><br>
+                <div class="wrapper">
+                    <div class="input-group1">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Sertanejo</label>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Mpb</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group2">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Rock</label>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Forró</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group3">
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox1" type='checkbox' />
+                                <label for="checkbox1">Pop</label>
+                            </div>
+                        </div>
+
+                        <div class="input-box">
+                            <div class="form-group">
+                                <input class="checkbox" id="checkbox2" type='checkbox' />
+                                <label for="checkbox2">Samba</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FECHMANENTO DA DIV "wrapper"-->
+
+                <label>Outros</label>
+                <input class="caixa" type="text" name="nome" size=35 />
+
+                <h4>Funcionamento</h4><br>
+                <div id="Funcionamento">
+                    <p>Dia</p>
+                    <div class="wrapper">
+                        <div class="input-group1">
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox1" type='checkbox' />
+                                    <label for="checkbox1">Segunda</label>
+                                </div>
+                            </div>
+
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox2" type='checkbox' />
+                                    <label for="checkbox2">Terça</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group2">
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox1" type='checkbox' />
+                                    <label for="checkbox1">Quarta</label>
+                                </div>
+                            </div>
+
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox2" type='checkbox' />
+                                    <label for="checkbox2">Quinta</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group3">
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox1" type='checkbox' />
+                                    <label for="checkbox1">Sexta</label>
+                                </div>
+                            </div>
+
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox2" type='checkbox' />
+                                    <label for="checkbox2">Sábado</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group3">
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox1" type='checkbox' />
+                                    <label for="checkbox1">Domingo</label>
+                                </div>
+                            </div>
+
+                            <div class="input-box">
+                                <div class="form-group">
+                                    <input class="checkbox" id="checkbox2" type='checkbox' />
+                                    <label for="checkbox2">Todos os dias</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <label>Horário de Abertura</label>
+                    <input type="time" name="" id="time">
+
+                    <label>Horário de Fechamento</label>
+                    <input type="time" name="" id="time">
+
+
+                </div>
+
+
+                <div class="descrição">
+                    <label>Descrição</label><br>
+                    <textarea cols="68" rows="10" name="descrição"></textarea>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!--BOTÃO CADASTRAR-->
+        <button type="submit" class="button btn_cadastro">Cadastrar</button>
+
+    </div>
+    <!--FECHMANENTO DA DIV "Formulário"-->
+    </form>
+
+
+    </div>
+
+    <!--FECHAMANENTO DO ID  "Cadastro"-->
+
+    <!-- FOOTER -->
+    <footer id="footer">
+
+        <div id="box-center" class="container">
+
+            <div id="box-uaishow">
+                <h3>UaiShow</h3>
+                <p>Copyright© 2022 UaiShow </p>
+                <p>Todos direitos reservados.</p>
+            </div>
+
+            <div id="box-midias">
+                <h3>Mídias Sociais</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+
+            <div id="box-contato">
+                <h3>Contato</h3>
+                <p>Fale conosco</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

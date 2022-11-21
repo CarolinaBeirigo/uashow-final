@@ -1,0 +1,149 @@
+#Cadastro {
+  margin-top: 2%;
+}
+
+#Cadastro h1 {
+  margin-bottom: 8px;
+}
+
+#Cadastro p {
+  color: #737272;
+  font-size: 18px;
+}
+
+#cad_mobile h3 {
+  margin-top: 2rem;
+}
+
+.button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 246px;
+  height: 48px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+/*FORMULÁRIO*/
+
+.Formulario {
+  margin-top: 40px;
+}
+
+.caixa {
+  height: 40px;
+  display: block;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.caixa:hover {
+  border: 1px solid #217ad6;
+}
+
+.caixa:focus {
+  border: 1px solid #217ad6;
+  box-shadow: 0 0 4px solid #217ad6;
+}
+
+/*POSIÇÃO DA CAIXA DE FORMULÁRIO*/
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  flex-direction: row;
+  padding: 0;
+  gap: 18px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+#uf {
+  height: 40px;
+}
+
+@media (max-width: 600px) {
+  #Cadastro {
+    margin-top: 2%;
+  }
+
+  #cad_mobile {
+    text-align: center;
+    padding-left: 35px;
+  }
+
+  .caixa {
+    width: 300px;
+    height: 40px;
+    display: block;
+    margin-bottom: 30px;
+    outline: none;
+  }
+  .input-group {
+    gap: 0;
+  }
+
+  .input-box {
+    margin: 0;
+  }
+
+  .input-box #uf {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 246px;
+    height: 48px;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .btn_artista {
+    background-color: #217ad6;
+    color: white;
+    border: 2px solid #217ad6;
+  }
+
+  .btn_artista:hover {
+    background-color: #217ad6;
+    color: white;
+    border: 2px solid #217ad6;
+  }
+
+  .btn_empresa {
+    background-color: #222121;
+    color: white;
+    border: 2px solid #222121;
+  }
+
+  .btn_empresa:hover {
+    background-color: #217ad6;
+    color: white;
+    border: 2px solid #217ad6;
+  }
+
+  .btn_usuario {
+    background-color: #222121;
+    color: white;
+    border: 2px solid #222121;
+  }
+
+  .btn_usuario:hover {
+    background-color: #217ad6;
+    color: white;
+  }
+}

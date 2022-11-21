@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_venda.css">
+    <link rel="stylesheet" href="global.css">
+    <title>UaiShow</title>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./svg/favicon.svg">
+    <!--Icones-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header id="header" class="container">
+        <nav>
+            <a class="logo" href="./index.html"><span>Uai</span>Show</a>
+            <div class="menu">
+
+                <div id="input-container">
+                    <label for="input-search"><img src="./svg/search-icon.svg" alt=""></label>
+                    <input class="search-input" type="search" name="" id="input-search" placeholder="Pesquisar evento">
+                </div>
+                <ul class="links">
+                    <li><a class="title" href="#">Uberlândia</a></li>
+                    <li><a class="title" href="./login.html">Login</a></li>
+                    <li><a class="title" href="./cadastro.html">Cadastrar</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="img-login">
+        <img src="./svg/pexels-luis-quintero-2091374 1.svg" alt="">
+        </div>
+
+        <div id="container-data">
+            <h3>Noite de Rock</h3>
+            <p>Sábado às 20h00</p>
+        </div>
+
+        <div id="container-evento">
+            <h4>PIER 84 CHOPERIA E PETISCARIA </h4>
+            <p>Villa Viseu - Av. Maria Silva Garcia, 286 Granja Marileusa
+                <br>Cep: 38406-634 <br> Uberlândia / Minas Gerais</p>
+        </div>
+
+        <div id="container-descricao">
+            <h4>Informações do evento</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra augue et ultrices aliquet. 
+                Suspendisse sollicitudin neque quis accumsan varius. Nam ullamcorper, lorem at rhoncus placerat, 
+                magna elit mattis leo, sit amet euismod diam sem et mauris. Nam turpis tellus, porttitor sit amet
+                congue sed, sollicitudin non tellus. Cras quis pulvinar sapien, ac mollis odio. Nunc congue ut 
+                nisi id eleifend. Morbi commodo ac eros vitae volutpat. Etiam magna erat, tempor tempor lectus
+                quis,convallis ultrices turpis. Mauris pulvinar ex in ligula placerat tempor.</p>
+        </div>
+
+        <div id="compra-ingresso">
+            <h4>Compre aqui seu ingresso</h4>
+        </div>
+
+        <div id="intrucoes">
+
+            <div class="ing">
+                <p>Entrada</p>
+                  <div class="form-group">
+                    <input class="radio" name="theradio1" id="radio1" type='radio' />
+                    <label for="radio1">Meia</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="radio" name="theradio1" id="radio2" type='radio' />
+                    <label for="radio2">Inteira</label>
+                  </div>
+            </div>
+            <div class="ing">
+                <p>Forma de  pagamento</p>
+                <div class="form-group">
+                    <input class="radio" name="theradio2" id="radio1" type='radio' />
+                    <label for="radio1">Cartão de débito</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="radio" name="theradio2" id="radio2" type='radio' />
+                    <label for="radio2">Cartão de crédito</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="radio" name="theradio2" id="radio2" type='radio' />
+                    <label for="radio2">Pix</label>
+                  </div>
+            </div>
+
+            <div class="ing">
+                <p>Quantidade de ingressos</p>
+                <select name="" id="ingresso">
+                <option id = "Selecione"value="">Selecione</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+            </div>  
+          
+        </div>
+            <div id="ing-button">
+                <ul id="button">
+                    <li><a href="#">Finalizar compra</a></li>
+                </ul>
+            </div> 
+    </main>
+
+    <footer id="footer">
+ 
+        <div id="box-center" class="container">
+ 
+            <div id="box-uaishow">
+                <h3>UaiShow</h3>
+                <p>Copyright© 2022 UaiShow </p>
+                <p>Todos direitos reservados.</p>
+            </div>
+ 
+            <div id="box-midias">
+                <h3>Mídias Sociais</h3>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+ 
+            <div id="box-contato">
+                <h3>Contato</h3>
+                <p>Fale conosco</p>
+            </div>
+ 
+        </div>
+ 
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
